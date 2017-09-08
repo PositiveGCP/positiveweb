@@ -105,7 +105,8 @@ section{
   font-weight: 400;
 }
 .fake-nav .right button:hover{
-  background-color: #2386be;
+  background-color: #E4E4E4!important;
+  opacity: .5!important;
 }
 .fake-nav .right button a{
   color: #fff;
@@ -121,15 +122,15 @@ section{
   left: 5% !important;
   top: 40% !important;
 }
-.slides h1{
+.slides h1, h2{
   text-shadow: 0px 0px 9px rgba(26, 26, 26, 1);
-  font-size: 80px;
+  font-size: ;
   line-height: auto;
   font-weight: 400;
 }
 .slides h3{
   text-shadow: 0px 0px 9px rgba(26, 26, 26, 1);
-  font-size: 30px;
+  font-size:30px;
   font-weight: 400;
   font-size: 20px;
 }
@@ -174,7 +175,7 @@ section{
   text-transform: none;
 }
 .card-tabs .tabs .tab a img{
-  height: 80px;
+  height: auto;
   width: 80px;
   margin: 0;
   padding: 0;
@@ -209,7 +210,7 @@ section{
 }
 .card-content .information-square .left img{
   padding: 20px;
-  height: 200px;
+  height: auto;
   width: 200px;
 }
 .card-content .information-square .right{
@@ -253,7 +254,7 @@ section{
   display: table;
 }
 .iconography img{
-  height: 120px;
+  height: auto;
   width: 120px;
   margin: 0 auto;
 }
@@ -420,7 +421,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 
   font-weight: 300;
 }
 #footer .footer .right .social-media ul{
-  height: 40px;
+  height: auto;
   width: 100%;
   display: inline-flex;
   vertical-align: middle;
@@ -432,5 +433,5 @@ background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 
 #footer .footer .right .social-media ul a img{
   margin: 0 auto;
   width: 30px;
-  height: 30px;
+  height: auto;
 }
