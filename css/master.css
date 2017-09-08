@@ -210,8 +210,13 @@ section{
 }
 .card-content .information-square .left img{
   padding: 20px;
+<<<<<<< HEAD
   height: 150px;
   width: auto;
+=======
+  height: auto;
+  width: 200px;
+>>>>>>> 935be876085f81cde91fdc403f4792896e2d5db8
 }
 .card-content .information-square .right{
   padding: 20px;
@@ -254,8 +259,13 @@ section{
   display: table;
 }
 .iconography img{
+<<<<<<< HEAD
   height: 150px;
   width: auto;
+=======
+  height: auto;
+  width: 120px;
+>>>>>>> 935be876085f81cde91fdc403f4792896e2d5db8
   margin: 0 auto;
 }
 /* Banner */
