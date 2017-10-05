@@ -100,7 +100,7 @@ section{
 .fake-nav .right button{
   background-color: Transparent;
   border-radius: 20px;
-  margin: 15px 10px 15px 15px;
+  margin: 15px 30px 15px 15px;
   font-size: 14px;
   font-weight: 400;
 }
@@ -133,6 +133,12 @@ section{
   text-shadow: 0px 0px 9px rgba(26, 26, 26, 1);
   font-size:30px;
   font-weight: 400;
+  font-size: 20px;
+}
+.slides h5{
+  text-shadow: 0px 0px 9px rgba(26, 26, 26, 1);
+  font-size:20px;
+  font-weight: 100;
   font-size: 20px;
 }
 /* presentation */
