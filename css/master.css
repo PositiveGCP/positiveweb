@@ -135,9 +135,9 @@ section{
 }
 .slides h3{
   text-shadow: 0px 0px 9px rgba(26, 26, 26, 1);
-  font-size:50px;
+  font-size:30px;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 20px;
 }
 .slides h5{
   text-shadow: 0px 0px 14px rgba(26, 26, 26, 1);
@@ -187,7 +187,7 @@ section{
 }
 .card-tabs .tabs .tab a img{
   height: auto;
-  width: 80px;
+  width: 80px!important;
   margin: 0;
   padding: 0;
 }
@@ -221,7 +221,7 @@ section{
 }
 .card-content .information-square .left img{
   padding: 20px;
-  height: 150px;
+  height: 180px;
   width: auto;
 }
 .card-content .information-square .right{
