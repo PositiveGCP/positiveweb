@@ -121,10 +121,7 @@ section{
 }
 .fundation{
   float: right;
-  padding-top: 14em;
-}
-.h{
-  clear: left;
+  text-align: justify;
 }
 .slider-wrapper .slides .caption{
   left: 5% !important;
@@ -144,7 +141,7 @@ section{
 }
 .slides h5{
   text-shadow: 0px 0px 9px rgba(26, 26, 26, 1);
-  font-size:16px;
+  font-size:15px;
   font-weight: 300;
   font-size: 20px;
   text-align: justify;
