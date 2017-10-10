@@ -120,7 +120,11 @@ section{
   display: none;
 }
 .fundation{
+  float: right;
   padding-top: 14em;
+}
+.h{
+  clear: left;
 }
 .slider-wrapper .slides .caption{
   left: 5% !important;
