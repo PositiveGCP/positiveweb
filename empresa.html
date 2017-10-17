@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="./bower_components/materialize/dist/css/materialize.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+  <link rel="stylesheet" src="https://normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/monokai_sublime.min.css">
+
+  <link rel="stylesheet" href="dist/jquery.timeliny.min.css" />
+
   <link rel="stylesheet" href="css/master.css">
   <!-- Scripts -->
   <script src="./bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
@@ -66,7 +71,30 @@
           <h1>Nuestra Historia</h1>
           <p>El desarrollo e implementación del Método HAT ha conllevado una historia de retos y oportunidades, lo cual nos ha permitido sumar experiencias, aprender de nuestros tropiezos y crecer en sabiduría - siempre con la visión de gestar herramientas úties para la gestión del entorno en ética y cumplimiento institucional </p>
         </div>
-        <iframe src="jquery.timeliny/sandbox/index.html"></iframe>
+        <br>
+        <br>
+        <div id="demo1">
+          <div data-year="1998">Nissim Heffes documenta el Método HAT (1.0) conforme al reto ofrecido por el Dr. Guershon Miles - mentor de la facultad de Technology Marketing & Management del Colegio de Tecnología de Jerusalem (JCT)</div>
+          <div data-year="1999">Estudio práctico del Método HAT en 3 instituciones de gobierno latinoamericanas, notablemente el Instituto Nacional de Migración (INM) en México</div>
+          <div data-year="2004" class="active">Primer versión del Sistema, utilizando el proceso de voz provisto por la tecnología LVA (Layered Voice Analysis) de Nemesysco.</div>
+          <div data-year="2006">Liberación del protocolo 'Dinámicas de Honestidad' para establecer la estructura de monetización en actos de corrupción. Se comienzan a desplegar el servicio 'Dictamen', que en su fase inicial permite resolver 128 incidentes en 35 organizaciones.</div>
+          <div data-year="2008-2015">Período de tiempo en el que se intentó en 3 ocasiones consolidar la operación comercial de nuestra empresa en México y América Latina  - una saga de tropiezos en la que únicamente sumamos experiencias, esperando juntarnos con la gente indicada.</div>
+          <div data-year="2016">Adquisión de la empresa por grupo EXEA</div>
+          <div data-year="Marzo 2017">GCP V 2.2.1 Primera versión del sistema que refleja fielmente el Método HAT, en un proceso totalmente automatizado, sin la intervención de analistas.</div>
+          <div data-year="Julio 2017">Sumamos a GCP caracterísitcas importantes para la gestión del entorno, entre ello: Entidades en Cuentas y Comunidades de Confianza</div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/g/modernizr@2.8.3,modernizr@3.3.1,jquery@3.1.1"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+          <script>hljs.initHighlightingOnLoad();</script>
+
+          <script src="dist/jquery.timeliny.min.js"></script>
+      	<script>
+      		$(function() {
+      			$('#demo1').timeliny({
+                      hideBlankYears: true
+                  });
+      		});
+      	</script>
       </div>
     </section>
 
