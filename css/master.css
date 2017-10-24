@@ -98,20 +98,22 @@ section{
   display: flex;
 }
 .fake-nav .right button{
-  border-radius: 3px;
-  border-color: #fff;
+  border:2px solid white!important;
   margin: 15px 30px 15px 15px;
-  font-size: 14px;
+  border-radius: 1px;
   font-weight: 400;
-  color:#fff;
+  font-size: 14px;
+  color:#fff!important;
 }
 .fake-nav .right button:hover{
   background-color: #fff!important;
-  opacity: .3!important;
-  color: #000!important;
+  border:3px solid white!important;
+  border-radius: 15px;
+  opacity: .5!important;
+  color:Transparent!important;
 }
 .fake-nav .right button a{
-  color: #E4E4E4;
+  color: #fff;
 }
 .slider-wrapper .slider, .slider-wrapper .slider .slides, .slider-wrapper .slider .slides li{
   height: 100vh !important;
