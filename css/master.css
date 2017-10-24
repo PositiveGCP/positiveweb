@@ -98,8 +98,8 @@ section{
   display: flex;
 }
 .fake-nav .right button{
-  border-radius: 3px;
-  border-color: #fff;
+  border-radius: 5px;
+  border-width: 5px;
   margin: 15px 30px 15px 15px;
   font-size: 14px;
   font-weight: 400;
@@ -107,7 +107,7 @@ section{
 }
 .fake-nav .right button:hover{
   background-color: #fff!important;
-  opacity: .3!important;
+  opacity: .5!important;
   color: #000!important;
 }
 .fake-nav .right button a{
