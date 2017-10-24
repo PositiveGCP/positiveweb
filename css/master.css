@@ -98,16 +98,17 @@ section{
   display: flex;
 }
 .fake-nav .right button{
-  background-color: Transparent;
-  border-radius: 20px;
+  border-radius: 3px;
+  border-color: #fff;
   margin: 15px 30px 15px 15px;
   font-size: 14px;
   font-weight: 400;
+  color:#fff;
 }
 .fake-nav .right button:hover{
   background-color: #fff!important;
   opacity: .3!important;
-  color: #6F6E6F!important;
+  color: #000!important;
 }
 .fake-nav .right button a{
   color: #E4E4E4;
