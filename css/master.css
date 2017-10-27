@@ -107,10 +107,15 @@ section{
 }
 .fake-nav .right button:hover{
   background-color: #fff!important;
+
   border:3px solid white!important;
   border-radius: 15px;
   opacity: .5!important;
   color:Transparent!important;
+
+  opacity: .5!important;
+  color: #000!important;
+
 }
 .fake-nav .right button a{
   color: #fff;
