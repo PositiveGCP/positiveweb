@@ -98,15 +98,24 @@ section{
   display: flex;
 }
 .fake-nav .right button{
-  background-color: ;
-  border-radius: 20px;
+  border:2px solid white!important;
   margin: 15px 30px 15px 15px;
-  font-size: 14px;
+  border-radius: 1px;
   font-weight: 400;
+  font-size: 14px;
+  color:#fff!important;
 }
 .fake-nav .right button:hover{
-  background-color: #E4E4E4!important;
+  background-color: #fff!important;
+
+  border:3px solid white!important;
+  border-radius: 15px;
   opacity: .5!important;
+  color:Transparent!important;
+
+  opacity: .5!important;
+  color: #000!important;
+
 }
 .fake-nav .right button a{
   color: #fff;
@@ -117,6 +126,10 @@ section{
 }
 .slider .indicators{
   display: none;
+}
+.fundation{
+  float: right;
+  text-align: justify;
 }
 .slider-wrapper .slides .caption{
   left: 5% !important;
@@ -134,12 +147,18 @@ section{
   font-weight: 400;
   font-size: 20px;
 }
+.slides h5{
+  text-shadow: 0px 0px 14px rgba(26, 26, 26, 1);
+  font-size:18px;
+  font-weight: 300;
+  text-align: justify;
+}
 /* presentation */
 #presentation{
   height: 600px;
-  margin-top: 100px;
+  margin-top: 90px;
   background: #fff;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 #presentation .container *{
   margin: 0;
@@ -152,7 +171,7 @@ section{
 }
 #presentation .container .info p{
   margin: 20px 10% 20px 10%;
-  text-align: center;
+  text-align: justify;
   color: #2b2b2b;
   font-weight: 300;
   font-size: 18px;
@@ -176,7 +195,7 @@ section{
 }
 .card-tabs .tabs .tab a img{
   height: auto;
-  width: 80px;
+  width: 80px!important;
   margin: 0;
   padding: 0;
 }
@@ -210,7 +229,7 @@ section{
 }
 .card-content .information-square .left img{
   padding: 20px;
-  height: 150px;
+  height: 180px;
   width: auto;
 }
 .card-content .information-square .right{
@@ -330,10 +349,20 @@ background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 
   display: inline-flex;
   vertical-align: middle;
 }
+/* History */
+.timeliny .timeliny-timeline .timeliny-timeblock.active .timeliny-dot {
+    border-color: #324996;
+    background-color: #324996;
+}
+
+.timeliny .timeliny-timeline .timeliny-timeblock.active .timeliny-dot:before {
+  color: #167dc1;
+}
 /* Footer */
 #footer{
   height: 260px;
   background: #252525;
+  padding-top:10px;
   margin: 0;
 }
 #footer .footer .left{
