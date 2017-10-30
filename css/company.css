@@ -1,0 +1,7 @@
+.information-viewer .card #scope .right ul{
+  margin-top: 10px;
+}
+.information-viewer .card #scope .right ul li{
+  line-height: 20px;
+  list-style: none;
+}

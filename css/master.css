@@ -3,10 +3,6 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../bower_components/material-desing-icons/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-    local('MaterialIcons-Regular'),
-    url(../bower_components/material-design-icons/iconfont/MaterialIcons-Regular.ttf) format('truetype');
 }
 .material-icons {
   font-family: 'Material Icons';
@@ -69,55 +65,56 @@ section{
   background-color: #e9e9e9;
   width: 100%;
 }
-.fake-nav{
+/*Real navbar*/
+.navbar-fixed{
+  /*No background behind.*/
+  height: 0;
+}
+nav{
   height: 70px;
   position: absolute;
-  z-index: 999;
-  background-color: transparent;
+  z-index: 1000;
+  background-color: rgba(40, 40, 40, 0.05);
   width: 100%;
   margin: 0;
 }
-.fake-nav .left{
-  width: auto !important;
-  display: flex;
+nav {
+  -webkit-transition: all 500ms ease-out 0.05s;
+  -moz-transition: all 500ms ease-out 0.05s;
+  -o-transition: all 500ms ease-out 0.05s;
+  transition: all 500ms ease-out 0.05s;
 }
-.fake-nav .left img{
+nav:hover{
+  background-color: rgba(40, 40, 40, 0.5);
+}
+nav .brand-logo{
+  display: inline-flex;
+}
+nav .brand-logo img{
   margin: 15px 15px 15px 30px;
   height: 40px;
   width: 40px;
 }
-.fake-nav .left h6{
-  margin: auto;
+nav .brand-logo h6{
+  margin-top: 20px;
   color: #fff;
   line-height: 16px;
   font-weight: 300;
   font-size: 14px;
 }
-.fake-nav .right{
-  width: auto !important;
-  display: flex;
+.nav-wrapper #nav-mobile{
+  padding-right: 20px;
 }
-.fake-nav .right button{
-  border:2px solid white!important;
-  margin: 15px 30px 15px 15px;
-  border-radius: 1px;
+.nav-wrapper #nav-mobile li a{
+  margin: 16px 10px;
+  border-radius: 20px;
+  line-height: 35px;
   font-weight: 400;
   font-size: 14px;
-  color:#fff!important;
-}
-.fake-nav .right button:hover{
-  background-color: #fff!important;
-
-  border:3px solid white!important;
-  border-radius: 15px;
-  opacity: .5!important;
-  color:Transparent!important;
-
-  opacity: .5!important;
-  color: #000!important;
-
-}
-.fake-nav .right button a{
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  padding: 0px 25px;
+  background-color: #2a2a2a;
   color: #fff;
 }
 .slider-wrapper .slider, .slider-wrapper .slider .slides, .slider-wrapper .slider .slides li{
@@ -304,12 +301,12 @@ section{
   width: 100%;
   height: 460px;
   background: rgba(255,255,255,0);
-background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(0,0,0,0.67)));
-background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
-background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
-background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(0,0,0,0.67)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.67) 100%);
 }
 #contact .info h1{
   text-align: center;
