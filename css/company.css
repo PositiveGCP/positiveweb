@@ -1,7 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');
+
 .information-viewer .card #scope .right ul{
   margin-top: 10px;
 }
 .information-viewer .card #scope .right ul li{
   line-height: 20px;
   list-style: none;
+}
+/* message */
+#sec-message{
+  height: 416px;
+  background-image: url('../images/_black.png');
+}
+#sec-message, #sec-message .message{
+  padding: 40px;
+}
+#sec-message .message h4{
+  margin-right: 50%;
+  margin-top: 50px;
+  font-size: 28px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  color: #fff;
+}
+#sec-message .message p{
+  margin-right: 50%;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+#sec-message .message a{
+  margin: 16px 0px;
+  border-radius: 20px;
+  line-height: 35px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  padding: 0px 25px;
+  background-color: #1c56ac;
+  color: #fff;
+}
+/* Style modal */
+#psc-carta{
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px;
+}
+#psc-carta .modal-content h4{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #222;
+}
+#psc-carta .modal-content p{
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: justify;
 }
