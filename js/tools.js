@@ -1,3 +1,6 @@
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
 "use strict";
 
 $(document).ready(function(){
